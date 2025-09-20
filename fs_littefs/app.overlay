@@ -125,6 +125,7 @@
         jedec-id= [ EF 40 17 ];
         status = "okay";
         //four-byte-opcodes;
+        writeoc = "PP_1_1_4"; // this one is required to have it work with windbond flash
         partitions {
             compatible = "fixed-partitions";
             #address-cells = <0x1>;
