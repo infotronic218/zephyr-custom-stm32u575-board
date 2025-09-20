@@ -1,0 +1,23 @@
+   { // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "cwd": "${workspaceFolder}",
+            "executable": "./build/zephyr/zephyr.elf",
+            "name": "Debug with ST-Link",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "raw",
+            "servertype": "openocd",
+            "serverpath": "/home/levi/zephyr-sdk-0.17.2/sysroots/x86_64-pokysdk-linux/usr/bin/openocd",
+            "gdbPath": "/home/levi/zephyr-sdk-0.17.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb",
+            "configFiles": [
+                "/home/levi/apps/zephyr/projects/STM32/stm32u575vgt6_custom_dev/boards/stm32u575vgtx_custom/support/openocd.cfg"
+            ],
+        },
+    ]
+}

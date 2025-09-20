@@ -1,0 +1,5 @@
+board:
+  name: stm32u575vgtx_custom
+  vendor: st
+  socs:
+    - name: stm32u575xx
