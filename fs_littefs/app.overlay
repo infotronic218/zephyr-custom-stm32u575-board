@@ -39,7 +39,7 @@
             lookahead-size = <64>;
             block-cycles = <512>;
             partition = <&storage_partition>;
-            mount-point = "/lfs1";
+            mount-point = "/lfs";
             //automount;
         };
     };

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20.0)
 
-set(BOARD_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
+set(BOARD_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../)
 
 set(BOARD stm32u575vgtx_custom)
 
